@@ -1,0 +1,52 @@
+    @font-face  {
+        font-family:fonte11;
+        src: url('font/fonte11.ttf');
+    }
+    
+    
+:root {
+    --cor-fundo: #4e5861;
+    --cor-título: #e1e6d3;
+    --cor-paragrafo: #b1ccc4;
+    --cor-link: #fff5d6;
+    --cor-borda: #0000;
+    --fonte-titulo: fonte11;
+
+}
+
+body {
+    font-family: var(--fonte-titulo);
+    background-color: var(--cor-fundo);
+    width:500px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin:0 auto;
+}
+
+
+div {
+    text-align: center;
+}
+
+h1,h2 {
+    color: var(--cor-titulo);
+}
+
+
+ul li a {
+    color:var(--cor-link);
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+    border-width: 6px;
+    border-color:var(--cor-borda);
+    border-style: solid;
+}
+
+body p {
+    color: var(--cor-paragrafo);
+    text-align: justify;
+}
